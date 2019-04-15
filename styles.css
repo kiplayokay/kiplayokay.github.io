@@ -1,0 +1,36 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 2px;
+}
+
+.register {
+  background-color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 0 4px #000;
+          box-shadow: 0 0 0 4px #000;
+}
+/*# sourceMappingURL=styles.css.map */
